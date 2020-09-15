@@ -15,18 +15,19 @@ a {
     color: #dfdfdf;
 }
 
-a:hover {
+a:hover, a:focus{
     color: #dbb238;
     text-decoration: none;
 }
-a:active {
-    color: #dbb238;
-}
+
 
 /*===============================NAVBAR STYLING=======================*/
+#navColumn, #icon {
+    height: 100%;
+}
 #headerSm {
      background-color: #040404;
-     width: 100%;
+     max-width: 100%;
      position: fixed;
      top: 0;
      height: 5rem;
@@ -35,7 +36,7 @@ a:active {
     background-color: #040404;
     position: fixed;
     left: 0;
-    width: 12rem;
+    width: 12.5rem;
     height: 100%;
 }
 #myImageBox {
@@ -44,14 +45,15 @@ a:active {
     border: 1px solid #dfdfdf
 }
 hr {
-    background-color: #dfdfdf;
+    background-color: #333;
 }
 navbar li {
     list-style: none;
+    font-size: 0.75rem;
 }
 #headerSm p, #headerLg p {
     font-size: 1.5rem;
 }
-#headerLg ul {
-    width: 12rem;
+ul {
+    width: 10rem;
 }
