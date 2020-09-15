@@ -1,0 +1,57 @@
+
+/*===============================GENERAL PAGE STYLING==================*/
+body {
+    background-color: #222220;
+
+    /*#191611;*/
+}
+
+p {
+    color: #dfdfdf;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #dfdfdf;
+}
+
+a:hover {
+    color: #dbb238;
+    text-decoration: none;
+}
+a:active {
+    color: #dbb238;
+}
+
+/*===============================NAVBAR STYLING=======================*/
+#headerSm {
+     background-color: #040404;
+     width: 100%;
+     position: fixed;
+     top: 0;
+     height: 5rem;
+ }
+#headerLg {
+    background-color: #040404;
+    position: fixed;
+    left: 0;
+    width: 12rem;
+    height: 100%;
+}
+#myImageBox {
+    width: 10rem;
+    height: 11rem;
+    border: 1px solid #dfdfdf
+}
+hr {
+    background-color: #dfdfdf;
+}
+navbar li {
+    list-style: none;
+}
+#headerSm p, #headerLg p {
+    font-size: 1.5rem;
+}
+#headerLg ul {
+    width: 12rem;
+}
