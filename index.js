@@ -2,7 +2,6 @@ $(document).ready(function () {
     $('#myNavItems').hide();
     $('#smDropdownIcon').click(
         function () {
-            $('#myNavItems').show();
-
+            $('#myNavItems').slideToggle();
         })
 })

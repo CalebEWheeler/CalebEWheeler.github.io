@@ -22,9 +22,16 @@ a:hover, a:focus{
 
 
 /*===============================NAVBAR STYLING=======================*/
-#navColumn, #icon {
+.navColumn, #icon {
     height: 100%;
 }
+#myNavItems {
+    background-color: #040404;
+}
+/*test screen size*/
+
+/*test screen size*/
+
 #headerSm {
      background-color: #040404;
      max-width: 100%;
