@@ -2,22 +2,47 @@
 /*===============================GENERAL PAGE STYLING==================*/
 body {
     background-color: #222220;
-
-    /*#191611;*/
 }
-
 p {
-    color: #dfdfdf;
+    color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
-
 a {
     color: #dfdfdf;
 }
-
 a:hover, a:focus{
     color: #dbb238;
     text-decoration: none;
+}
+li {
+    list-style:none;
+}
+main {
+    margin-top: 5rem;
+}
+#content heading {
+    color: #dfdfdf;
+    font-size: 2rem;
+
+}
+.contentInfo {
+    width: 22rem;
+}
+.contentInfo hr{
+    background-color: #999;
+    width: 22rem;
+    margin: auto 0;
+}
+.contentInfo p {
+    color: #999;
+    font-size: .75rem;
+}
+ .headingHr {
+    width: 5rem;
+    height: .25rem;
+    margin: auto 0;
+    background-color: #dbb238;
+
 }
 
 
@@ -28,16 +53,12 @@ a:hover, a:focus{
 #myNavItems {
     background-color: #040404;
 }
-/*test screen size*/
-
-/*test screen size*/
-
 #headerSm {
      background-color: #040404;
      max-width: 100%;
      position: fixed;
      top: 0;
-     height: 5rem;
+     height: 3rem;
  }
 #headerLg {
     background-color: #040404;
@@ -59,8 +80,14 @@ navbar li {
     font-size: 0.75rem;
 }
 #headerSm p, #headerLg p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 ul {
     width: 10rem;
 }
+/*===============================NAVBAR STYLING=======================*/
+
+
+/*===============================MAIN STYLING=======================*/
+
+/*===============================MAIN STYLING=======================*/
