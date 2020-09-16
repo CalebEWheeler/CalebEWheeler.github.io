@@ -1,7 +1,18 @@
 
 /*===============================GENERAL PAGE STYLING==================*/
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
     background-color: #222220;
+}
+.oddInfo {
+    background-color: #222220;
+}
+.evenInfo {
+    background-color: #1f1f1d;
+
 }
 p {
     color: #fff;
@@ -26,16 +37,18 @@ main {
 
 }
 .contentInfo {
-    width: 22rem;
+
 }
 .contentInfo hr{
     background-color: #999;
-    width: 22rem;
     margin: auto 0;
 }
-.contentInfo p {
+.contentInfo h5, .contentInfo h4, .contentInfo h6{
+    color: #dfdfdf;
+}
+.contentInfo p, .contentInfo li {
     color: #999;
-    font-size: .75rem;
+    font-size: 1rem;
 }
  .headingHr {
     width: 5rem;
@@ -53,6 +66,7 @@ main {
 #resume:hover {
     background-color: #dbb238;
 }
+
 
 /*===============================NAVBAR STYLING=======================*/
 .navColumn, #icon {
