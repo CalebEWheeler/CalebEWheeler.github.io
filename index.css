@@ -21,7 +21,7 @@ p {
 a {
     color: #dfdfdf;
 }
-a:hover, a:focus{
+.link:hover{
     color: #dbb238;
     text-decoration: none;
 }
@@ -37,7 +37,7 @@ main {
 
 }
 .contentInfo {
-
+    color: #dfdfdf;
 }
 .contentInfo hr{
     background-color: #999;
@@ -57,8 +57,21 @@ main {
     background-color: #dbb238;
 
 }
- .fa-arrow-right, .fa-id-card, .fa-laptop-code, .fa-graduation-cap {
+ .fa-arrow-right,
+ .fa-id-card,
+ .fa-laptop-code,
+ .fa-graduation-cap,
+ .fa-map-marker-alt,
+ .fa-phone-alt, .fa-envelope,
+ .fa-linkedin-in,
+ .fa-facebook-f {
      color: #dbb238;
+ }
+ .formButton {
+     background-color: #222220;
+     color: #dfdfdf;
+     border: .15rem solid #dbb238;
+     height: 3rem;
  }
 #resume {
     background-color: #222220;
@@ -66,9 +79,32 @@ main {
     border: .15rem solid #dbb238;
     height: 3rem;
 }
-#resume:hover {
+#resume:hover , .formButton:hover {
+    color: #222220;
     background-color: #dbb238;
+    transition: color .35s, background-color .35s;
 }
+.inputStyle {
+    background-color: #dfdfdf;
+}
+.fa-angle-up {
+    background-color: #dfdfdf;
+    color: #040404;
+
+}
+.toTopOfPage {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 2rem;
+    height: 2rem;
+    background-color: #dfdfdf;
+}
+/*main {*/
+/*    position: relative;*/
+/*    z-index: 0;*/
+/*}*/
+
 
 
 /*===============================NAVBAR STYLING=======================*/
@@ -77,6 +113,9 @@ main {
 }
 #myNavItems {
     background-color: #040404;
+    position: relative;
+    display: block;
+
 
 }
 #headerSm {

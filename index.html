@@ -18,14 +18,15 @@
 
 <!--<======================>  XS & SM  <======================>-->
 <navbar id="headerSm" class="container-fluid d-md-none">
-    <div id="" class="navColumn d-md-none d-flex align-items-center">
+    <div class="navColumn d-md-none d-flex align-items-center">
         <p class=" mb-0">Caleb Wheeler</p>
-        <a href="#" id="icon" class="ml-auto d-flex align-items-center"><i id="smDropdownIcon"
-                                                                           class="fas fa-bars fa-lg pr-1"></i></a>
+        <a href="#" id="icon" class="link ml-auto d-flex align-items-center">
+            <i id="smDropdownIcon" class="fas fa-bars fa-lg pr-1"></i>
+        </a>
     </div>
     <div class="row rounded-bottom" id="myNavItems">
-        <ul id="links" class="col-12">
-            <hr>
+        <ul id="links" class="col-12 mb-0">
+            <hr class="mt-0">
             <a href="#home" class="link">
                 <li>HOME</li>
             </a>
@@ -55,10 +56,13 @@
             </a>
             <hr>
             <a href="#contact" class="link">
-                <li>CONTACT</li>
+                <li class="pb-3">CONTACT</li>
             </a>
-            <hr>
         </ul>
+
+    </div>
+    <div class="toTopOfPage d-flex mr-2 mb-2 rounded justify-content-center align-items-center">
+        <a href="#" class="h-100"><i class="fas fa-angle-up fa-2x"></i></a>
     </div>
 </navbar>
 
@@ -133,7 +137,7 @@
                 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at doloribus enim excepturi inventore, non odit pariatur voluptate. A amet aperiam aut dolorem eligendi est exercitationem molestias odit optio repellat?</span><span>Aliquid aperiam, architecto blanditiis esse fugiat iste odio quidem rerum ullam veniam! Debitis delectus eaque, eveniet exercitationem fugiat illo in laborum necessitatibus, quisquam quos saepe tenetur totam voluptas. Quos, totam.</span><span>At deserunt dolore earum explicabo libero molestias, natus odio pariatur possimus quod, ratione repellendus repudiandae, sapiente tempore voluptates! Aliquid ducimus eaque laboriosam ut. Earum ex, harum magnam possimus quae quod.</span><span>Accusamus animi aperiam consequatur cum delectus dolore eum exercitationem facilis harum id in incidunt laboriosam, laborum magnam modi, mollitia nisi quaerat quam quasi qui rerum sapiente sequi tempore. Delectus, hic.</span><span>Aliquam culpa dolore facere ipsa iure, labore molestiae obcaecati tempore voluptates? Assumenda autem eveniet in iste minima modi. Assumenda dolorum esse hic minus necessitatibus nihil nostrum odit officia quod sed!</span>
                 </p>
                 <p class="my-3">Summary of Introduction</p>
-                <button id="resume" class="my-3 px-2 font-weight-bold">DOWNLOAD RESUME</button>
+                <button id="resume" class="rounded my-3 px-2">DOWNLOAD RESUME</button>
                 <div id="signature" class="my-3"><p>Put Signature Here</p></div>
             </div>
         </li>
@@ -262,38 +266,62 @@
         </li>
         <li id="portfolio" class="w-100 pt-5 px-5 pb-5 evenInfo">
             <heading>PORTFOLIO</heading>
-            <hr class="headingHr">
+            <hr class="headingHr my-4">
             <p></p>
         </li>
-        <li id="contact" class="w-100 pt-5 px-5 pb-5 oddInfo">
+        <li id="contact" class="w-100 pt-5 px-5 pb-4 oddInfo">
             <heading>CONTACT</heading>
-            <hr class="headingHr">
-            <div class="row">
+            <hr class="headingHr my-4">
+            <div class="row fixIndex">
                 <div class="col-6">
                     <ul class="w-100 contentInfo">
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            <h6>CALEB WHEELER</h6>
-                            <p>San Antonio, Tx Area</p>
+                        <li class="d-flex">
+                            <i class="align-self-center fas fa-map-marker-alt fa-2x"></i>
+                            <div class="ml-4 my-2">
+                                <h6 class="mb-0">CALEB WHEELER</h6>
+                                <p class="mb-0">San Antonio, Tx Area</p>
+                            </div>
                         </li>
-                        <li>
-                            <i class="fas fa-phone-alt"></i>
-                            <h6>PHONE</h6>
-                            <p>210-274-2144</p>
+                        <li class="d-flex">
+                            <i class="align-self-center fas fa-phone-alt fa-2x"></i>
+                            <div class="ml-4 my-2">
+                                <h6 class="mb-0">PHONE</h6>
+                                <p class="mb-0">210-274-2144</p>
+                            </div>
                         </li>
-                        <li>
-                            <i class="fas fa-envelope"></i>
-                            <h6>EMAIL</h6>
-                            <p>caleb.edward.wheeler@gmail.com</p>
+                        <li class="d-flex">
+                            <i class="align-self-center fas fa-envelope fa-2x"></i>
+                            <div class="ml-4 my-2">
+                                <h6 class="mb-0">EMAIL</h6>
+                                <p class="mb-0">caleb.edward.wheeler@gmail.com</p>
+                            </div>
                         </li>
                     </ul>
                 </div>
-                <div class="col-6">
-
+                <div class="contentInfo d-flex justify-content-center col-6">
+                    <ul class="w-100">
+                        <li class="mx-auto">
+                            <h6 class="w-50 mx-auto text-center mt-2">GET SOCIAL</h6>
+                        </li>
+                        <li class="d-flex justify-content-center">
+                            <i class="mx-4 my-3 fab fa-linkedin-in fa-2x"></i>
+                            <i class="mx-4 my-3 fab fa-facebook-f fa-2x"></i>
+                        </li>
+                    </ul>
                 </div>
-                <hr class="my-5">
-
             </div>
+            <hr class="my-5">
+            <h4 class="contentInfo">GET IN TOUCH</h4>
+            <form action="mailto:Caleb.Edward.Wheeler@gmail.com" method="post"
+                  enctype=”multipart/form-data” name=”EmailForm”>
+                <div class="d-flex flex-column">
+                    <input class="inputStyle rounded mt-4" type="text" placeholder="Your Name...">
+                    <input class="inputStyle rounded mt-4" type="text" placeholder="Your Email...">
+                    <input class="inputStyle rounded mt-4" type="text" placeholder="Your Phone...">
+                    <textarea class="rounded mt-4" name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    <button class="formButton rounded mt-4" type="submit">SEND MESSAGE</button>
+                </div>
+            </form>
         </li>
     </ul>
 </main>

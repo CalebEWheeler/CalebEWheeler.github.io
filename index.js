@@ -1,12 +1,10 @@
 $(document).ready(function () {
     //!WHEN ICON IS CLICKED REDIRECTS TO TOP OF PAGE!
-    $('#myNavItems').hide();
-    $('#smDropdownIcon').click(
-        function (e) {
-            e.preventDefault();
-            $('#myNavItems').slideToggle();
-        })
+    $('#icon').click(function(e) {
+        e.preventDefault()
+    })
 
+    $('#myNavItems').hide();
     $('.link').click(function() {
         $('#myNavItems').slideToggle();
     })
@@ -17,4 +15,11 @@ $(document).ready(function () {
     },  function() {
             $(this).find('i').removeClass('fa-4x').addClass('fa-3x')
         })
+
+    $('.toTopOfPage').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, "slow");
+        return false;
+    })
 })
