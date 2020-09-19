@@ -57,7 +57,7 @@ main {
     background-color: #dbb238;
 
 }
- .fa-arrow-right {
+ .fa-arrow-right, .fa-id-card, .fa-laptop-code, .fa-graduation-cap {
      color: #dbb238;
  }
 #resume {

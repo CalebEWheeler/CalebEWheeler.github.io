@@ -11,7 +11,7 @@ $(document).ready(function () {
         $('#myNavItems').slideToggle();
     })
 
-    $('.experience, .education').hover(
+    $('.education').hover(
         function() {
             $(this).find('i').removeClass('fa-3x').addClass('fa-4x')
     },  function() {
