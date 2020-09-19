@@ -10,4 +10,11 @@ $(document).ready(function () {
     $('.link').click(function() {
         $('#myNavItems').slideToggle();
     })
+
+    $('.experience, .education').hover(
+        function() {
+            $(this).find('i').removeClass('fa-3x').addClass('fa-4x')
+    },  function() {
+            $(this).find('i').removeClass('fa-4x').addClass('fa-3x')
+        })
 })
