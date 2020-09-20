@@ -47,16 +47,9 @@ main {
     color: #dfdfdf;
     font-weight: normal;
 }
-/*h3 {*/
-/*    color: #dfdfdf;*/
-/*}*/
-.contentInfoSm p, .contentInfo li {
-    color: #999;
-    font-size: 1rem;
-}
 .contentInfo p, .contentInfo li {
     color: #999;
-    font-size: .8rem;
+    font-size: .85rem;
 }
  .headingHr {
     width: 5rem;
