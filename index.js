@@ -22,4 +22,8 @@ $(document).ready(function () {
         }, "slow");
         return false;
     })
+
+    $('.formButton').click(function() {
+
+    })
 })

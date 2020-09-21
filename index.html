@@ -300,20 +300,20 @@
                     <h6 class="w-50 mx-auto text-center mt-2">SOCIAL MEDIA</h6>
                 </li>
                 <li class="d-flex justify-content-center">
-                    <i class="mx-4 my-3 fab fa-linkedin-in fa-2x"></i>
-                    <i class="mx-4 my-3 fab fa-facebook-f fa-2x"></i>
+                    <a href="#" target="_blank"><i class="mx-4 my-3 fab fa-linkedin-in fa-2x"></i></a>
+                    <a href="https://www.facebook.com/caleb.wheeler.169" target="_blank"><i class="mx-4 my-3 fab fa-facebook-f fa-2x"></i></a>
                 </li>
             </ul>
             <hr class="my-5">
             <h4 class="contentInfo">GET IN TOUCH</h4>
-            <form action="mailto:Caleb.Edward.Wheeler@gmail.com" method="post"
-                  enctype=”multipart/form-data” name=”EmailForm”>
+            <form name="input" method="post" data-netlify-recaptcha="true" netlify>
                 <div class="d-flex flex-column">
-                    <input class="inputStyle rounded mt-4" type="text" placeholder="Your Name...">
-                    <input class="inputStyle rounded mt-4" type="text" placeholder="Your Email...">
-                    <input class="inputStyle rounded mt-4" type="text" placeholder="Your Phone...">
-                    <textarea class="rounded mt-4" name="" id="" cols="30" rows="10"
+                    <input name="Name" class="inputStyle rounded mt-4" type="text" placeholder="Your Name...">
+                    <input name="_replyTo" class="inputStyle rounded mt-4" type="email" placeholder="Your Email...">
+                    <input name="Phone" class="inputStyle rounded mt-4" type="text" placeholder="Your Phone...">
+                    <textarea name="message" class="rounded mt-4" cols="30" rows="10"
                               placeholder="Your Message..."></textarea>
+                    <div data-netlify-recaptcha="true"></div>
                     <button class="formButton nowrap rounded mt-4" type="submit">SEND MESSAGE</button>
                 </div>
             </form>
