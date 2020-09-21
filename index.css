@@ -28,7 +28,7 @@ a {
 li {
     list-style:none;
 }
-main {
+.mainMobile {
     margin-top: 5rem;
 }
 #content heading {
@@ -102,10 +102,6 @@ main {
     height: 2rem;
     background-color: #dfdfdf;
 }
-/*main {*/
-/*    position: relative;*/
-/*    z-index: 0;*/
-/*}*/
 
 
 
