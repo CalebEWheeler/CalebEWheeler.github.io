@@ -1,4 +1,4 @@
-$(document).onload($(document).scrollLeft(0));
+
 $(document).ready(function () {
     //!WHEN ICON IS CLICKED REDIRECTS TO TOP OF PAGE!
     $('#icon').click(function(e) {
@@ -24,26 +24,25 @@ $(document).ready(function () {
         return false;
     })
 
-    $('#home1').click(function(e) {
-        $('#outer-wrapper').scrollLeft(0);
-    })
-    $('#about1').click(function(e) {
-        $('#outer-wrapper').scrollLeft(1500);
-    })
-    $('#skills1').click(function(e) {
-        $('#outer-wrapper').scrollLeft(3000);
-    })
-    // $("#home1").click(function() {
-    //     $([document.documentElement, document.body]).animate({
-    //         scrollTop: $("#elementtoScrollToID").offset().top
-    //     }, 2000);
-    // });
-    // $("#about1").click(function() {
-    //     $([document.documentElement, document.body]).animate({
-    //         scrollTop: $("#elementtoScrollToID").offset().top
-    //     }, 2000);
-    // });
-    // $('#home1').click(function() {
+    //ACCESSING EACH CHILD OF NAVBAR UL'S SO THAT WHEN CLICKED IT WILL LOG A SPECIFIC MESSAGE
+    // $('ul').children('.link1').click(function(e) {
+    //     e.preventDefault();
+    //     if() {
+    //         console.log("You clicked the home button!")
+    //         // $(this).parent().parent().parent().parent().parent().scrollLeft(0);
+    //     }
+    //     // else if($(this)) {
+    //     //     console.log("You clicked the about button!")
+    //     // }
     //
     // })
+
+
+    // $('#home1').click(function(e) {
+    //     e.preventDefault();
+    //     $('html').scrollLeft(0)
+    //     // let leftPos = $(document).scrollLeft();
+    //     // $(".outer-wrapper").animate({scrollLeft: leftPos - 767}, 800);
+    // })
+
 })

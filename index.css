@@ -31,6 +31,10 @@ a {
     color: #dbb238;
     text-decoration: none;
 }
+.link1:hover{
+    color: #dbb238;
+    text-decoration: none;
+}
 li {
     list-style:none;
 }
@@ -176,6 +180,8 @@ ul {
 
 }
 .slide {
+    position: static;
+    left: 12.5rem;
     width: 767px; !important;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -185,14 +191,16 @@ ul {
     float:left;
     display: flex;
     flex-direction: row;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    /*overflow-y: hidden;*/
+    /*overflow-x: hidden;*/
     width: 6136px; !important;
 }
 .outer-wrapper {
     position: absolute;
     left: 12.5rem;
-    overflow: hidden;
+    overflow-y: hidden;
+    /*overflow-x: scroll;*/
+
     height: 100vh;
     width: 6301px;
 }
