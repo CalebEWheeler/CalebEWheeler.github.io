@@ -31,6 +31,12 @@ li {
 .mainMobile {
     margin-top: 5rem;
 }
+.content2 {
+    position: fixed;
+    overflow: scroll;
+    left: 12.5rem;
+    max-width: 50%;
+}
 .content heading {
     color: #dfdfdf;
     font-size: 2rem;
