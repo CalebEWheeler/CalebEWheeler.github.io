@@ -75,13 +75,13 @@ li {
      height: 3rem;
      width: 10.25rem;
  }
-#resume {
+.resume {
     background-color: #222220;
     color: #dfdfdf;
     border: .15rem solid #dbb238;
     height: 3rem;
 }
-#resume:hover , .formButton:hover {
+.resume:hover , .formButton:hover {
     color: #222220;
     background-color: #dbb238;
     transition: color .35s, background-color .35s;
