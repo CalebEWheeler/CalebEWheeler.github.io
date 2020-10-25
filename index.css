@@ -9,6 +9,10 @@ body {
     overflow-y: hidden;
     /*overflow-x: hidden;*/
 }
+/*HIDES BROWSER SCROLLBAR*/
+/*body::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
 .oddInfo {
     background-color: #222220;
 }
@@ -168,34 +172,29 @@ ul {
 /*.content2 {*/
 /*    left: 12.5rem;*/
 /*}*/
+#home1 {
+
+}
 .slide {
-    /*width: 100px;*/
-    height: 100vh;
-    /*position: absolute;*/
-    /*overflow: auto;*/
+    width: 767px; !important;
     overflow-y: scroll;
     overflow-x: hidden;
+    height: 100vh;
 }
 .wrapper {
+    float:left;
     display: flex;
     flex-direction: row;
     overflow-y: hidden;
     overflow-x: hidden;
-    width: 6136px;
+    width: 6136px; !important;
 }
-/*.wrapper {*/
-/*!*...*!*/
-/*!*transform: rotate(90deg) translateY(-100vh);*!*/
-/*!*    transform-origin: top left;*!*/
-/*}*/
 .outer-wrapper {
     position: absolute;
     left: 12.5rem;
-    transform-origin: top left;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow: hidden;
     height: 100vh;
-    width: 6136px;
+    width: 6301px;
 }
 /*===============================MAIN STYLING=======================*/
 
