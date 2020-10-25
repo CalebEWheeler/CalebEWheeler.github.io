@@ -136,10 +136,11 @@ li {
     z-index: 1000;
     background-color: #040404;
     position: fixed;
-    float: left;
+    /*float: left;*/
+    top: 0;
     left: 0;
     width: 12.5rem;
-    height: 100vh;
+    height: 100%;
 }
 #myImageBox {
     width: 10rem;
@@ -169,14 +170,14 @@ ul {
 .slide {
     /*width: 1000px;*/
     height: 100%;
+    position: sticky;
 }
 .wrapper {
     display: flex;
     flex-direction: row;
-    /*width: 5000px;*/
 }
 .wrapper {
-...
+/*...*/
 /*transform: rotate(90deg) translateY(-100vh);*/
     transform-origin: top left;
 }
