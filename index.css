@@ -133,8 +133,9 @@ li {
      height: 3rem;
  }
 #headerLg {
+    z-index: 1000;
     background-color: #040404;
-    /*position: relative;*/
+    position: fixed;
     float: left;
     left: 0;
     width: 12.5rem;
