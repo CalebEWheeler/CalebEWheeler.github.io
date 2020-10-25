@@ -24,25 +24,42 @@ $(document).ready(function () {
         return false;
     })
 
-    //ACCESSING EACH CHILD OF NAVBAR UL'S SO THAT WHEN CLICKED IT WILL LOG A SPECIFIC MESSAGE
-    // $('ul').children('.link1').click(function(e) {
-    //     e.preventDefault();
-    //     if() {
-    //         console.log("You clicked the home button!")
-    //         // $(this).parent().parent().parent().parent().parent().scrollLeft(0);
-    //     }
-    //     // else if($(this)) {
-    //     //     console.log("You clicked the about button!")
-    //     // }
-    //
-    // })
-
-
-    // $('#home1').click(function(e) {
-    //     e.preventDefault();
-    //     $('html').scrollLeft(0)
-    //     // let leftPos = $(document).scrollLeft();
-    //     // $(".outer-wrapper").animate({scrollLeft: leftPos - 767}, 800);
-    // })
+    $('.lgNavbar').children('.link1').click(function(e) {
+        e.preventDefault();
+        switch($(this).data("id")) {
+            case 1:
+                console.log("home");
+                $(this).parent().parent().parent().parent().parent().scrollLeft(0);
+                break;
+            case 2:
+                console.log("about");
+                $(this).parent().parent().parent().parent().parent().scrollLeft(767);
+                break;
+            case 3:
+                console.log("skills");
+                $(this).parent().parent().parent().parent().parent().scrollLeft(1534);
+                break;
+            case 4:
+                console.log("experience");
+                $(this).parent().parent().parent().parent().parent().scrollLeft(2301);
+                break;
+            case 5:
+                console.log("education");
+                $(this).parent().parent().parent().parent().parent().scrollLeft(3068);
+                break;
+            case 6:
+                console.log("recommendations");
+                $(this).parent().parent().parent().parent().parent().scrollLeft(3835);
+                break;
+            case 7:
+                console.log("portfolio");
+                $(this).parent().parent().parent().parent().parent().scrollLeft(4602);
+                break;
+            case 8:
+                console.log("contact");
+                $(this).parent().parent().parent().parent().parent().scrollLeft(4608);
+                break;
+        }
+    })
 
 })
