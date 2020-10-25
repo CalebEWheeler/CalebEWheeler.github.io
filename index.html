@@ -69,35 +69,35 @@
         <img src="" alt="">
     </div>
     <ul class="p-0 mx-auto">
-        <a href="#" class="active">
+        <a href="#home1" class="active link">
             <li>HOME</li>
         </a>
         <hr>
-        <a href="#">
+        <a href="#about1" class="link">
             <li>ABOUT</li>
         </a>
         <hr>
-        <a href="#">
+        <a href="#skills1" class="link">
             <li>SKILLS</li>
         </a>
         <hr>
-        <a href="#">
+        <a href="#experience1" class="link">
             <li>EXPERIENCE</li>
         </a>
         <hr>
-        <a href="#">
+        <a href="#education1" class="link">
             <li>EDUCATION</li>
         </a>
         <hr>
-        <a href="#">
+        <a href="#recommendations1" class="link">
             <li>RECOMMENDATIONS</li>
         </a>
         <hr>
-        <a href="#">
+        <a href="#portfolio1" class="link">
             <li>PORTFOLIO</li>
         </a>
         <hr>
-        <a href="#">
+        <a href="#contact1" class="link">
             <li>CONTACT</li>
         </a>
         <hr>
@@ -111,8 +111,8 @@
 <!--<======================>  XS & SM  <======================>-->
 <main class="mainMobile w-100 d-md-none">
     <ul class="content w-100 pl-0">
-        <li class="home"><!--Photo Carousel--></li>
-        <li class="about pt-5 px-5 pb-4 oddInfo">
+        <li id="home" class="home"><!--Photo Carousel--></li>
+        <li id="about" class="about pt-5 px-5 pb-4 oddInfo">
             <h3 class="font-weight-light">ABOUT</h3>
             <hr class="headingHr my-4">
             <div class="contentInfo">
@@ -132,7 +132,7 @@
                 <div class="signature my-3"><p>Put Signature Here</p></div>
             </div>
         </li>
-        <li class="skills w-100 pt-5 px-5 pb-1 evenInfo">
+        <li id="skills" class="skills w-100 pt-5 px-5 pb-1 evenInfo">
             <h3 class="font-weight-light">SKILLS</h3>
             <hr class="headingHr my-4">
             <div class="contentInfo">
@@ -149,7 +149,7 @@
                 <div class="generate"></div>
             </div>
         </li>
-        <li class="experience w-100 pt-5 px-5 oddInfo">
+        <li id="experience" class="experience w-100 pt-5 px-5 oddInfo">
             <h3 class="font-weight-light">EXPERIENCE</h3>
             <hr class="headingHr my-4">
             <ul class="w-100 contentInfo">
@@ -189,7 +189,7 @@
                 <hr class="my-5">
             </ul>
         </li>
-        <li class="education w-100 pt-5 px-5 pb-5 evenInfo">
+        <li id="education" class="education w-100 pt-5 px-5 pb-5 evenInfo">
             <h3 class="font-weight-light">EDUCATION</h3>
             <hr class="headingHr my-4">
             <ul class="w-100 contentInfo">
@@ -218,7 +218,7 @@
                 <hr>
             </ul>
         </li>
-        <li class="recommendations w-100 pt-5 px-5 pb-5 oddInfo">
+        <li id="recommendations" class="recommendations w-100 pt-5 px-5 pb-5 oddInfo">
             <h3 class="font-weight-light">RECOMMENDATIONS</h3>
             <hr class="headingHr my-4">
             <ul class="w-100 contentInfo">
@@ -255,12 +255,12 @@
                 <hr>
             </ul>
         </li>
-        <li class=" portfoliow-100 pt-5 px-5 pb-5 evenInfo">
+        <li id="portfolio" class=" portfolio w-100 pt-5 px-5 pb-5 evenInfo">
             <heading class="display-4">PORTFOLIO</heading>
             <hr class="headingHr my-4">
             <p></p>
         </li>
-        <li class="contact w-100 pt-5 px-5 pb-4 oddInfo">
+        <li id="contact" class="contact w-100 pt-5 px-5 pb-4 oddInfo">
             <h3 class="font-weight-light">CONTACT</h3>
             <hr class="headingHr my-4">
             <ul class="w-100 contentInfo">
@@ -314,10 +314,10 @@
 <!--<======================>  XS & SM  <======================>-->
 
 <!--<======================>  MD - XL  <======================>-->
-<main class="d-sm-none d-md-block vh-100">
-    <ul class="content2 content w-100 pl-0">
-        <li class="home"><!--Photo Carousel--></li>
-        <li class="about pt-5 px-5 pb-4 oddInfo">
+<main class="content-scroller outer-wrapper         d-sm-none d-md-block vh-100">
+    <ul class="content-wrapper wrapper     content w-100 pl-0">
+<!--        <li class="noscroll home">&lt;!&ndash;Photo Carousel&ndash;&gt;</li>-->
+        <li id="about1" class="slide oddInfo content2 noscroll about pt-5 px-5 pb-4 oddInfo">
             <h3 class="font-weight-light">ABOUT</h3>
             <hr class="headingHr my-4">
             <div class="contentInfo">
@@ -337,7 +337,7 @@
                 <div class="signature my-3"><p>Put Signature Here</p></div>
             </div>
         </li>
-        <li class="skills w-100 pt-5 px-5 pb-1 evenInfo">
+        <li id="skills1" class="slide evenInfo content2 noscroll skills w-100 pt-5 px-5 pb-1 evenInfo">
             <h3 class="font-weight-light">SKILLS</h3>
             <hr class="headingHr my-4">
             <div class="contentInfo">
@@ -354,7 +354,7 @@
                 <div class="generate"></div>
             </div>
         </li>
-        <li class="experience w-100 pt-5 px-5 oddInfo">
+        <li id="experience1" class="slide oddInfo content2 noscroll experience w-100 pt-5 px-5 oddInfo">
             <h3 class="font-weight-light">EXPERIENCE</h3>
             <hr class="headingHr my-4">
             <ul class="w-100 contentInfo">
@@ -394,7 +394,7 @@
                 <hr class="my-5">
             </ul>
         </li>
-        <li class="education w-100 pt-5 px-5 pb-5 evenInfo">
+        <li id="education1" class="slide evenInfo content2 noscroll education w-100 pt-5 px-5 pb-5 evenInfo">
             <h3 class="font-weight-light">EDUCATION</h3>
             <hr class="headingHr my-4">
             <ul class="w-100 contentInfo">
@@ -423,7 +423,7 @@
                 <hr>
             </ul>
         </li>
-        <li class="recommendations w-100 pt-5 px-5 pb-5 oddInfo">
+        <li id="recommendations1" class="slide oddInfo content2 noscroll recommendations w-100 pt-5 px-5 pb-5 oddInfo">
             <h3 class="font-weight-light">RECOMMENDATIONS</h3>
             <hr class="headingHr my-4">
             <ul class="w-100 contentInfo">
@@ -460,12 +460,12 @@
                 <hr>
             </ul>
         </li>
-        <li class="portfolio w-100 pt-5 px-5 pb-5 evenInfo">
+        <li id="portfolio1" class="slide evenInfo content2 noscroll portfolio w-100 pt-5 px-5 pb-5 evenInfo">
             <heading class="display-4">PORTFOLIO</heading>
             <hr class="headingHr my-4">
             <p></p>
         </li>
-        <li class="contact w-100 pt-5 px-5 pb-4 oddInfo">
+        <li id="contact1" class="slide oddInfo content2 noscroll contact w-100 pt-5 px-5 pb-4 oddInfo">
             <h3 class="font-weight-light">CONTACT</h3>
             <hr class="headingHr my-4">
             <ul class="w-100 contentInfo">
