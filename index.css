@@ -9,15 +9,11 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
 }
-/*HIDES BROWSER SCROLLBAR*/
-/*body::-webkit-scrollbar {*/
-/*    display: none;*/
-/*}*/
 .oddInfo {
     background-color: #222220;
 }
 .evenInfo {
-    background-color: #232321;
+    background-color: #1f1f1d;
 
 }
 p {
@@ -181,21 +177,19 @@ ul {
     overflow-x: hidden;
     height: 100vh;
 }
-::-webkit-scrollbar { display: none;}
+::-webkit-scrollbar {
+    display: none;
+}
 .wrapper {
     float:left;
     display: flex;
     flex-direction: row;
-    /*overflow-y: hidden;*/
-    /*overflow-x: hidden;*/
     width: 6136px; !important;
 }
 .outer-wrapper {
     position: absolute;
     left: 12.5rem;
     overflow-y: hidden;
-    /*overflow-x: scroll;*/
-
     height: 100vh;
     width: 6318px;
 }
