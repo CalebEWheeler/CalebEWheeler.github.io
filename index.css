@@ -5,16 +5,17 @@
     margin: 0;
 }
 body {
-    background-color: #222220;
+    background-color: #16161a;
     overflow-y: hidden;
     overflow-x: hidden;
 }
 .oddInfo {
-    background-color: #222220;
+    /*background-color: #222220;*/
+    background-color: #16161a;
 }
 .evenInfo {
-    background-color: #1f1f1d;
-
+    background-color: #121316;
+/*background-color: #171a1e;*/
 }
 p {
     color: #fff;
