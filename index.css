@@ -7,7 +7,7 @@
 body {
     background-color: #222220;
     overflow-y: hidden;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 /*HIDES BROWSER SCROLLBAR*/
 /*body::-webkit-scrollbar {*/
