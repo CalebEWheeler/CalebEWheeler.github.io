@@ -12,8 +12,8 @@ body {
 /*FIGURE OUT NO SCROLL FEATURE ON MD AND LARGER SCREEN SIZES(keep scroll available for mobile version*/
 .noScroll {
     /*background-color: #16161a;*/
-    overflow-y: hidden;
-    overflow-x: hidden;
+    /*overflow-y: hidden;*/
+    /*overflow-x: hidden;*/
 }
 .oddInfo {
     background-color: #16161a;
@@ -39,8 +39,9 @@ a {
 li {
     list-style:none;
 }
+/*look into smaller margin for mobile view*/
 .mainMobile {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 .content heading {
     color: #dfdfdf;
