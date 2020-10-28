@@ -9,12 +9,12 @@ $(document).ready(function () {
         $('#myNavItems').slideToggle();
     })
 
-    $('.education').hover(
-        function () {
-            $(this).find('i').removeClass('fa-3x').addClass('fa-4x')
-        }, function () {
-            $(this).find('i').removeClass('fa-4x').addClass('fa-3x')
-        })
+    // $('.education').hover(
+    //     function () {
+    //         $(this).find('i').removeClass('fa-3x').addClass('fa-4x')
+    //     }, function () {
+    //         $(this).find('i').removeClass('fa-4x').addClass('fa-3x')
+    //     })
 
     $('.toTopOfPage').click(function () {
         $('html, body').animate({
@@ -25,64 +25,71 @@ $(document).ready(function () {
 
     //looking into using offset() to find the element position and
     // utilize that value in place of hard numbers
-    $('.smNavbar').children('.link').click(function(e) {
-        e.preventDefault();
-        // let x = $('#contact').offset();
-        // console.log("Top: " + x.top + " Left: " + x.left);
+    $('.smNavbar').children('.link').click(function () {
+        // event.preventDefault();
+        let x;
         switch ($(this).data("id")) {
             case 1:
-                console.log($('#home').offset());
-                // $(this).parent().parent().parent().parent().parent().animate({
-                //     scrollTop: $('#home').offset()
-                // }, 800, function () {
-                // });
+                x = $('#home').offset();
+                $(this).parent().parent().parent().parent().parent().animate({
+                    scrollTop: x.top,
+                }, 800, function () {
+                });
                 break;
             case 2:
-                console.log($('#about').offset())
-                // $(this).parent().parent().parent().parent().parent().animate({
-                //     scrollTop: $('#about').offset()
-                // }, 800, function () {
-                // });
+                x = $('#about').offset();
+                console.log(x.top - 48);
+                $(this).parent().parent().parent().parent().parent().animate({
+                    scrollTop: x.top - 48,
+                }, 800, function () {
+                });
                 break;
             case 3:
-                console.log($('#skills').offset())
-                // $(this).parent().parent().parent().parent().parent().animate({
-                //     scrollTop: $('#skills').offset()
-                // }, 800, function () {
-                // });
+                x = $('#skills').offset();
+                console.log(x.top - 48)
+                $(this).parent().parent().parent().parent().parent().animate({
+                    scrollTop: x.top - 48,
+                }, 800, function () {
+                });
                 break;
             case 4:
-                console.log($('#experience').offset())
-                // $(this).parent().parent().parent().parent().parent().animate({
-                //     scrollTop: $('#experience').offset()
-                // }, 800, function () {
-                // });
+                x = $('#experience').offset();
+                console.log(x.top - 48);
+                $(this).parent().parent().parent().parent().parent().animate({
+                    scrollTop: x.top - 48,
+                }, 800, function () {
+                });
                 break;
             case 5:
-                console.log($('#education').offset())
-                // $(this).parent().parent().parent().parent().parent().animate({
-                //     scrollTop: $('#education').offset()
-                // }, 800, function () {
-                // });
+                x = $('#education').offset();
+                console.log(x.top - 48);
+                $(this).parent().parent().parent().parent().parent().animate({
+                    scrollTop: x - 48,
+                }, 800, function () {
+                });
                 break;
             case 6:
-                console.log($('#recommendations').offset())
-                // $(this).parent().parent().parent().parent().parent().animate({
-                //     scrollTop: $('#recommendations').offset()
-                // }, 800, function () {
-                // });
+                x = $('#recommendations').offset();
+                console.log(x.top - 48);
+                $(this).parent().parent().parent().parent().parent().animate({
+                    scrollTop: x - 48,
+                }, 800, function () {
+                });
                 break;
             case 7:
-                console.log($('#portfolio').offset())
-                // $(this).parent().parent().parent().parent().parent().animate({
-                //     scrollTop: $('#portfolio').offset()
-                // }, 800, function () {
-                // });
+                x = $('#portfolio').offset();
+                console.log(x.top - 48);
+                $(this).parent().parent().parent().parent().parent().animate({
+                    scrollTop: x - 48,
+                }, 800, function () {
+                });
+
                 break;
             case 8:
-                console.log($('#contact').offset())
-                $(this).parent().parent().parent().parent().animate({
-                    scrollTop: $('#contact').offset()
+                x = $('#contact').offset();
+                console.log(x.top - 48);
+                $(this).parent().parent().parent().parent().parent().animate({
+                    scrollTop: x.top - 48,
                 }, 800, function () {
                 });
                 break;
@@ -91,53 +98,69 @@ $(document).ready(function () {
 
     $('.lgNavbar').children('.link1').click(function (e) {
         e.preventDefault();
+        let x;
         switch ($(this).data("id")) {
             case 9:
+                x = $('#home1').offset();
                 $(this).parent().parent().parent().parent().parent().animate({
-                    scrollLeft: 0,
+                    // scrollLeft: 0,
+                    scrollLeft: x.left - 200,
                 }, 800, function () {
                 });
                 break;
             case 10:
+                x = $('#about1').offset();
                 $(this).parent().parent().parent().parent().parent().animate({
-                    scrollLeft: 767,
+                    // scrollLeft: 767,
+                    scrollLeft: x.left - 200,
                 }, 800, function () {
                 });
                 break;
             case 11:
+                x = $('#skills1').offset();
                 $(this).parent().parent().parent().parent().parent().animate({
-                    scrollLeft: 1534,
+                    // scrollLeft: 1534,
+                    scrollLeft: x.left - 200,
                 }, 800, function () {
                 });
                 break;
             case 12:
-                console.log("experience");
+                x = $('#experience1').offset();
                 $(this).parent().parent().parent().parent().parent().animate({
-                    scrollLeft: 2301,
+                    // scrollLeft: 2301,
+                    scrollLeft: x.left - 200,
                 }, 800, function () {
                 });
                 break;
             case 13:
+                x = $('#education1').offset();
                 $(this).parent().parent().parent().parent().parent().animate({
-                    scrollLeft: 3068,
+                    // scrollLeft: 3068,
+                    scrollLeft: x.left - 200,
                 }, 800, function () {
                 });
                 break;
             case 14:
+                x = $('#recommendations1').offset();
                 $(this).parent().parent().parent().parent().parent().animate({
-                    scrollLeft: 3835,
+                    // scrollLeft: 3835,
+                    scrollLeft: x.left - 200,
                 }, 800, function () {
                 });
                 break;
             case 15:
+                x = $('#portfolio1').offset();
                 $(this).parent().parent().parent().parent().parent().animate({
-                    scrollLeft: 4602,
+                    // scrollLeft: 4602,
+                    scrollLeft: x.left - 200,
                 }, 800, function () {
                 });
                 break;
             case 16:
+                x = $('#contact1').offset();
                 $(this).parent().parent().parent().parent().parent().animate({
-                    scrollLeft: 5150,
+                    // scrollLeft: 5150,
+                    scrollLeft: x.left - 200,
                 }, 800, function () {
                 });
                 break;
