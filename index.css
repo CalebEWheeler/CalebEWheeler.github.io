@@ -146,6 +146,9 @@ li {
 .navColumn, #icon {
     height: 100%;
 }
+.navColumn a {
+    width: 3rem;
+}
 #myNavItems {
     background-color: #040404;
     position: relative;
