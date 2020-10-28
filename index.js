@@ -9,12 +9,12 @@ $(document).ready(function () {
         $('#myNavItems').slideToggle();
     })
 
-    // $('.education').hover(
-    //     function () {
-    //         $(this).find('i').removeClass('fa-3x').addClass('fa-4x')
-    //     }, function () {
-    //         $(this).find('i').removeClass('fa-4x').addClass('fa-3x')
-    //     })
+    $('.education').hover(
+        function () {
+            $(this).find('i').removeClass('fa-3x').addClass('fa-4x')
+        }, function () {
+            $(this).find('i').removeClass('fa-4x').addClass('fa-3x')
+        })
 
     $('.toTopOfPage').click(function () {
         $('html, body').animate({
@@ -23,8 +23,6 @@ $(document).ready(function () {
         return false;
     })
 
-    //looking into using offset() to find the element position and
-    // utilize that value in place of hard numbers
     $('.smNavbar').children('.link').click(function (e) {
         e.preventDefault();
         let x;
@@ -152,6 +150,5 @@ $(document).ready(function () {
                 break;
         }
     })
-
 
 })
