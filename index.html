@@ -16,47 +16,46 @@
 
 <!--===================================     NAVBAR      ===========================-->
 <!--<======================>  XS & SM  <======================>-->
-<navbar id="headerSm" class="container-fluid d-md-none">
-    <div class="navColumn d-md-none d-flex align-items-center">
+<navbar id="headerSm" class="container-fluid d-lg-none">
+    <div class="navColumn d-flex align-items-center">
         <p class=" mb-0">Caleb Wheeler</p>
         <a href="#" id="icon" class="link ml-auto d-flex align-items-center justify-content-center"><i id="smDropdownIcon" class="fas fa-bars fa-lg pr-1"></i></a>
     </div>
     <div class="row rounded-bottom" id="myNavItems">
-        <ul id="links" class="col-12 mb-0">
+        <ul id="links" class="smNavbar col-12 mb-0">
             <hr class="mt-0">
-            <a href="#home" class="link">
+            <a href="#home" class="link" data-id="1">
                 <li>HOME</li>
             </a>
             <hr>
-            <a href="#about" class="link">
+            <a href="#about" class="link" data-id="2">
                 <li>ABOUT</li>
             </a>
             <hr>
-            <a href="#skills" class="link">
+            <a href="#skills" class="link" data-id="3">
                 <li>SKILLS</li>
             </a>
             <hr>
-            <a href="#experience" class="link">
+            <a href="#experience" class="link" data-id="4">
                 <li>EXPERIENCE</li>
             </a>
             <hr>
-            <a href="#education" class="link">
+            <a href="#education" class="link" data-id="5">
                 <li>EDUCATION</li>
             </a>
             <hr>
-            <a href="#recommendations" class="link">
+            <a href="#recommendations" class="link" data-id="6">
                 <li>RECOMMENDATIONS</li>
             </a>
             <hr>
-            <a href="#portfolio" class="link">
+            <a href="#portfolio" class="link" data-id="7">
                 <li>PORTFOLIO</li>
             </a>
             <hr>
-            <a href="#contact" class="link">
+            <a href="#contact" class="link" data-id="8">
                 <li class="pb-3">CONTACT</li>
             </a>
         </ul>
-
     </div>
     <div class="toTopOfPage d-flex mr-3 mb-3 rounded justify-content-center align-items-center">
         <a href="#" class="h-100"><i class="fas fa-angle-up fa-2x"></i></a>
@@ -71,7 +70,52 @@
 <!--===================================     CONTENT      ===========================-->
 
 <!--<======================>  XS & SM  <======================>-->
-<main class="mainMobile w-100 d-md-none">
+<main class="mainMobile w-100 d-lg-none">
+    <navbar id="headerSm" class="container-fluid d-lg-none">
+        <div class="navColumn d-flex align-items-center">
+            <p class=" mb-0">Caleb Wheeler</p>
+            <a href="#" id="icon" class="link ml-auto d-flex align-items-center justify-content-center"><i id="smDropdownIcon" class="fas fa-bars fa-lg pr-1"></i></a>
+        </div>
+        <div class="row rounded-bottom" id="myNavItems">
+            <ul class="smNavbar col-12 mb-0">
+                <hr class="mt-0">
+                <a href="#home" class="link" data-id="1">
+                    <li>HOME</li>
+                </a>
+                <hr>
+                <a href="#about" class="link" data-id="2">
+                    <li>ABOUT</li>
+                </a>
+                <hr>
+                <a href="#skills" class="link" data-id="3">
+                    <li>SKILLS</li>
+                </a>
+                <hr>
+                <a href="#experience" class="link" data-id="4">
+                    <li>EXPERIENCE</li>
+                </a>
+                <hr>
+                <a href="#education" class="link" data-id="5">
+                    <li>EDUCATION</li>
+                </a>
+                <hr>
+                <a href="#recommendations" class="link" data-id="6">
+                    <li>RECOMMENDATIONS</li>
+                </a>
+                <hr>
+                <a href="#portfolio" class="link" data-id="7">
+                    <li>PORTFOLIO</li>
+                </a>
+                <hr>
+                <a href="#contact" class="link" data-id="8">
+                    <li class="pb-3">CONTACT</li>
+                </a>
+            </ul>
+        </div>
+        <div class="toTopOfPage d-flex mr-3 mb-3 rounded justify-content-center align-items-center">
+            <a href="#" class="h-100"><i class="fas fa-angle-up fa-2x"></i></a>
+        </div>
+    </navbar>
     <ul class="content w-100 mb-0 pl-0">
         <li id="home" class="oddInfo"><!--Photo Carousel--></li>
         <li id="about" class="pt-5 px-5 pb-4 evenInfo">
@@ -275,48 +319,53 @@
 </main>
 <!--<======================>  XS & SM  <======================>-->
 
-<!--<======================>  MD - XL  <======================>-->
-<main class="outer-wrapper d-sm-none d-md-block vh-100">
-    <navbar id="headerLg" class="d-md-block d-none">
-        <div id="myImageBox" class="my-4 mx-auto">
+<!--<======================>  MD  <======================>-->
+
+<!--<======================>  MD  <======================>-->
+
+<!--<======================>  LG - XL  <======================>-->
+
+<main class="outer-wrapper d-none d-lg-block vh-100">
+    <navbar id="headerLg" class="d-md-block d-none vh-100">
+        <div class="myImageBox my-4 mx-auto">
             <img src="" alt="">
         </div>
         <ul class="lgNavbar p-0 mx-auto">
-            <a href="#home1" class="active link1" data-id="1">
+            <a href="#home1" class="active link1" data-id="9">
                 <li>HOME</li>
             </a>
             <hr>
-            <a href="#about1" class="link1" data-id="2">
+            <a href="#about1" class="link1" data-id="10">
                 <li>ABOUT</li>
             </a>
             <hr>
-            <a href="#skills1" class="link1" data-id="3">
+            <a href="#skills1" class="link1" data-id="11">
                 <li>SKILLS</li>
             </a>
             <hr>
-            <a href="#experience1" class="link1" data-id="4">
+            <a href="#experience1" class="link1" data-id="12">
                 <li>EXPERIENCE</li>
             </a>
             <hr>
-            <a href="#education1" class="link1" data-id="5">
+            <a href="#education1" class="link1" data-id="13">
                 <li>EDUCATION</li>
             </a>
             <hr>
-            <a href="#recommendations1" class="link1" data-id="6">
+            <a href="#recommendations1" class="link1" data-id="14">
                 <li>RECOMMENDATIONS</li>
             </a>
             <hr>
-            <a href="#portfolio1" class="link1" data-id="7">
+            <a href="#portfolio1" class="link1" data-id="15">
                 <li>PORTFOLIO</li>
             </a>
             <hr>
-            <a href="#contact1" class="link1" data-id="8">
+            <a href="#contact1" class="link1" data-id="16">
                 <li>CONTACT</li>
             </a>
             <hr>
         </ul>
     </navbar>
-    <ul class="wrapper content pl-0">
+    <ul class="wrapper content pl-0 mb-0">
         <li id="home1" class="slide oddInfo"><!--Photo Carousel--></li>
         <li id="about1" class="slide evenInfo pt-5 px-5 pb-4">
             <h3 class="font-weight-light">ABOUT</h3>
@@ -517,7 +566,7 @@
         </li>
     </ul>
 </main>
-<!--<======================>  MD - XL  <======================>-->
+<!--<======================>  LG - XL  <======================>-->
 
 
 <!--===================================     CONTENT      ===========================-->
