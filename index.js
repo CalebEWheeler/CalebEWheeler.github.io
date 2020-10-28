@@ -1,9 +1,8 @@
 $(document).ready(function () {
-    //!WHEN ICON IS CLICKED REDIRECTS TO TOP OF PAGE!
     $('#icon').click(function (e) {
         e.preventDefault()
     })
-
+    //-- ADD FUNCTIONALITY TO CLOSE NAVMENU WHEN USER CLICKS ANYWHERE ON THE PAGE --
     $('#myNavItems').hide();
     $('.link').click(function () {
         $('#myNavItems').slideToggle();
