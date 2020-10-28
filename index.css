@@ -6,16 +6,20 @@
 }
 body {
     background-color: #16161a;
+    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+}
+/*FIGURE OUT NO SCROLL FEATURE ON MD AND LARGER SCREEN SIZES(keep scroll available for mobile version*/
+.noScroll {
+    /*background-color: #16161a;*/
     overflow-y: hidden;
     overflow-x: hidden;
 }
 .oddInfo {
-    /*background-color: #222220;*/
     background-color: #16161a;
 }
 .evenInfo {
     background-color: #121316;
-/*background-color: #171a1e;*/
 }
 p {
     color: #fff;
@@ -38,15 +42,6 @@ li {
 .mainMobile {
     margin-top: 5rem;
 }
-
-
-
-/**/
-
-
-
-
-
 .content heading {
     color: #dfdfdf;
     font-size: 2rem;
@@ -119,8 +114,33 @@ li {
     background-color: #dfdfdf;
 }
 
-
-
+/*===============================MAIN STYLING=======================*/
+::-webkit-scrollbar {
+    display: none;
+}
+.slide {
+    position: static;
+    left: 12.5rem;
+    width: 767px; !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+}
+.wrapper {
+    float:left;
+    display: flex;
+    flex-direction: row;
+    width: 6136px; !important;
+}
+.outer-wrapper {
+    position: absolute;
+    left: 12.5rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 6318px;
+}
+/*===============================MAIN STYLING=======================*/
 /*===============================NAVBAR STYLING=======================*/
 .navColumn, #icon {
     height: 100%;
@@ -129,16 +149,14 @@ li {
     background-color: #040404;
     position: relative;
     display: block;
-
-
 }
 #headerSm {
-     background-color: #040404;
-     max-width: 100%;
-     position: fixed;
-     top: 0;
-     height: 3rem;
- }
+    background-color: #040404;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    height: 3rem;
+}
 #headerLg {
     z-index: 1000;
     position: fixed;
@@ -167,31 +185,3 @@ ul {
     width: 10rem;
 }
 /*===============================NAVBAR STYLING=======================*/
-
-
-/*===============================MAIN STYLING=======================*/
-.slide {
-    position: static;
-    left: 12.5rem;
-    width: 767px; !important;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 100vh;
-}
-::-webkit-scrollbar {
-    display: none;
-}
-.wrapper {
-    float:left;
-    display: flex;
-    flex-direction: row;
-    width: 6136px; !important;
-}
-.outer-wrapper {
-    position: absolute;
-    left: 12.5rem;
-    overflow-y: hidden;
-    height: 100vh;
-    width: 6318px;
-}
-/*===============================MAIN STYLING=======================*/
