@@ -8,6 +8,11 @@ $(document).ready(function () {
         $('#myNavItems').slideToggle();
     })
 
+    //TEST THIS FOR CLOSING NAVMENU ON MOBILE
+    //$(document).click(function() {
+    //         box.hide();
+    //     });
+
     $('.education').hover(
         function () {
             $(this).find('i').removeClass('fa-3x').addClass('fa-4x')
