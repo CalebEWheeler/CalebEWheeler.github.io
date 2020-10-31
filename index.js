@@ -8,6 +8,7 @@ $(document).ready(function () {
         $('#myNavItems').slideToggle();
     })
 
+
     //TEST THIS FOR CLOSING NAVMENU ON MOBILE
     //$(document).click(function() {
     //         box.hide();

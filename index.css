@@ -153,8 +153,18 @@ li {
     top: 0;
     height: 3rem;
 }
+.header {
+    z-index: 1005;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('img/original.jpeg');
+    background-size: cover;
+}
 #headerLg {
-    z-index: 1000;
+    z-index: 500;
     position: fixed;
     top: 0;
     left: 0;
@@ -165,7 +175,7 @@ li {
 .myImageBox {
     width: 10rem;
     height: 11rem;
-    border: 1px solid #dfdfdf
+    border: 1px solid #dfdfdf;
 }
 hr {
     background-color: #333;
