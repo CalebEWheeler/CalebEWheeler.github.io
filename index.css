@@ -1,3 +1,8 @@
+/*
+1E2626
+32403E
+323B32
+*/
 
 /*===============================GENERAL PAGE STYLING==================*/
 * {
@@ -5,7 +10,7 @@
     margin: 0;
 }
 body {
-    background-color: #16161a;
+    background-color: #1E2626;
     overflow-x: hidden;
 }
 .oddInfo {
@@ -154,14 +159,39 @@ li {
     height: 3rem;
 }
 .header {
-    z-index: 1005;
+    z-index: 1004;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url('img/original.jpeg');
+
+    background-color: #1D3455;
+}
+.header .img {
+    width: 95%;
+    height: 95%;
+    background-image: url('img/tp.jpeg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.message {
+    height: 6rem;
+    width: 30rem;
+    background: rgba(255,255,255,0.5);}
+.message p {
+    font-size: 3rem;
+    color: black;
+}
+.h-btn {
+    margin-top: 5rem;
+    width: 10rem;
+    height: 3rem;
+    background: rgba(255,255,255,0.5);}
+.h-btn p{
+    font-size: 1.5rem;
+    color: black;
 }
 #headerLg {
     z-index: 500;
@@ -170,7 +200,7 @@ li {
     left: 0;
     width: 12.5rem;
     height: 100%;
-    background-color: #040404;
+    background-color: #1E2626;
 }
 .myImageBox {
     width: 10rem;
