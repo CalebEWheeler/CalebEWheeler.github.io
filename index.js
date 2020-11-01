@@ -8,28 +8,49 @@ $(document).ready(function () {
         $('#myNavItems').slideToggle();
     })
 
-
-
-    $('.h-btn').click(function() {
-        console.log("I've been clicked");
-
-        $(this).parent().parent().parent().removeClass('d-none d-lg-block').animate({width: 'toggle', opacity: 'toggle'},800);
-    })
-    $('.link1').click(function(){
-        if ($(this).data('id') === 9) $('body').children('.header').animate({width: 'toggle', opacity: 'toggle'},800).addClass('d-none d-lg-block');
-    })
-
-
     //TEST THIS FOR CLOSING NAVMENU ON MOBILE
-    //$(document).click(function() {
-    //         box.hide();
-    //     });
+
+
+    //LARGE SCREEN SIZES
+    $('.h-btn').click(function () {
+        $(this).parent().parent().parent().removeClass('d-none d-lg-block').animate({
+            width: 'toggle',
+            opacity: 'toggle'
+        }, 800);
+    })
+    $('.link1').click(function () {
+        if ($(this).data('id') === 9) $('body').children('.header').animate({
+            width: 'toggle',
+            opacity: 'toggle'
+        }, 800).addClass('d-none d-lg-block');
+    })
+
+
+    // $('#myNavItems').hide();
+    // $('.link').click(function () {
+    //     $('#myNavItems').slideToggle();
+    //     if ($(this).data('id') === 1) {
+    //         $('#myNavItems').hide()
+    //         $('body').children('.headerSm').animate({height: 'toggle', opacity: 'toggle'}, 800).addClass('d-lg-none');
+    //     }
+    // })
+
+    //SMALL SCREEN SIZES
+    $('.hs-btn').click(function () {
+        $('#myNavItems').hide();
+        $(this).parent().parent().parent().removeClass('.headerSm').animate({height: 'toggle', opacity: 'toggle'}, 800);
+    })
+    //IF THE SCREEN IS CLICKED IT WILL CLOSE THE DROPDOWN
+    $('.mainMobile').click(function () {
+        if ($('#myNavItems').attr('style') === 'display: block;') $('#myNavItems').slideUp();
+    })
+
 
     $('.education').hover(function () {
-            $(this).find('i').removeClass('fa-3x').addClass('fa-4x')
-        }, function () {
-            $(this).find('i').removeClass('fa-4x').addClass('fa-3x')
-        })
+        $(this).find('i').removeClass('fa-3x').addClass('fa-4x')
+    }, function () {
+        $(this).find('i').removeClass('fa-4x').addClass('fa-3x')
+    })
 
     $('.toTopOfPage').click(function () {
         $('html, body').animate({
@@ -43,11 +64,13 @@ $(document).ready(function () {
         let x;
         switch ($(this).data("id")) {
             case 1:
-                x = $('#home').offset();
+                x = $('#about').offset();
                 $(this).parent().parent().parent().parent().parent().animate({
-                    scrollTop: x.top,
-                }, 800, function () {
+                    scrollTop: x.top - 48,
+                }, 500, function () {
                 });
+                $('#myNavItems').slideUp()
+                $('body').children('.headerSm').animate({height: 'toggle', opacity: 'toggle'}, 1000).addClass('d-lg-none');
                 break;
             case 2:
                 x = $('#about').offset();

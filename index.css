@@ -158,6 +158,23 @@ li {
     top: 0;
     height: 3rem;
 }
+.headerSm {
+    z-index: 1004;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1D3455;
+}
+.headerSm .img {
+    width: 65%;
+    height: 75%;
+    background-image: url('img/tp.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .header {
     z-index: 1004;
     position: fixed;
@@ -193,6 +210,17 @@ li {
     /*box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 .h-btn p{
+    font-size: 1.5rem;
+    color: black;
+}
+.hs-btn {
+    margin-top: 5rem;
+    width: 10rem;
+    height: 3rem;
+    background: rgba(255,255,255,0.5);
+    /*box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+.hs-btn p{
     font-size: 1.5rem;
     color: black;
 }
