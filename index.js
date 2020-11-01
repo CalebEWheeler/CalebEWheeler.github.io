@@ -8,14 +8,18 @@ $(document).ready(function () {
         $('#myNavItems').slideToggle();
     })
 
+    $('.h-btn').click(function() {
+        console.log("I've been clicked");
+        $(this).parent().parent().parent().removeClass('d-none d-lg-block').hide();
+    })
+
 
     //TEST THIS FOR CLOSING NAVMENU ON MOBILE
     //$(document).click(function() {
     //         box.hide();
     //     });
 
-    $('.education').hover(
-        function () {
+    $('.education').hover(function () {
             $(this).find('i').removeClass('fa-3x').addClass('fa-4x')
         }, function () {
             $(this).find('i').removeClass('fa-4x').addClass('fa-3x')
