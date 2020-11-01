@@ -12,7 +12,9 @@ $(document).ready(function () {
         console.log("I've been clicked");
         $(this).parent().parent().parent().removeClass('d-none d-lg-block').hide();
     })
-
+    $('.link1').click(function(){
+        if ($(this).data('id') === 9) $('body').children('.header').show().addClass('d-none d-lg-block');
+    })
 
     //TEST THIS FOR CLOSING NAVMENU ON MOBILE
     //$(document).click(function() {
