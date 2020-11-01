@@ -165,12 +165,11 @@ li {
     left: 0;
     width: 100vw;
     height: 100vh;
-
     background-color: #1D3455;
 }
 .header .img {
-    width: 95%;
-    height: 95%;
+    width: 65%;
+    height: 75%;
     background-image: url('img/tp.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -178,8 +177,10 @@ li {
 }
 .message {
     height: 6rem;
-    width: 30rem;
-    background: rgba(255,255,255,0.5);}
+    width: 115%;
+    background: rgba(255,255,255,0.5);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
 .message p {
     font-size: 3rem;
     color: black;
@@ -188,7 +189,9 @@ li {
     margin-top: 5rem;
     width: 10rem;
     height: 3rem;
-    background: rgba(255,255,255,0.5);}
+    background: rgba(255,255,255,0.5);
+    /*box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
 .h-btn p{
     font-size: 1.5rem;
     color: black;
