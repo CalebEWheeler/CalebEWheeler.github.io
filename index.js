@@ -8,13 +8,17 @@ $(document).ready(function () {
         $('#myNavItems').slideToggle();
     })
 
+
+
     $('.h-btn').click(function() {
         console.log("I've been clicked");
-        $(this).parent().parent().parent().removeClass('d-none d-lg-block').hide();
+
+        $(this).parent().parent().parent().removeClass('d-none d-lg-block').animate({width: 'toggle', opacity: 'toggle'},800);
     })
     $('.link1').click(function(){
-        if ($(this).data('id') === 9) $('body').children('.header').show().addClass('d-none d-lg-block');
+        if ($(this).data('id') === 9) $('body').children('.header').animate({width: 'toggle', opacity: 'toggle'},800).addClass('d-none d-lg-block');
     })
+
 
     //TEST THIS FOR CLOSING NAVMENU ON MOBILE
     //$(document).click(function() {
