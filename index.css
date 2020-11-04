@@ -1,7 +1,10 @@
 /*
-1E2626
-32403E
-323B32
+#182223
+#283b29
+#785e24
+#99564a
+#a1b5c0
+
 */
 
 /*===============================GENERAL PAGE STYLING==================*/
@@ -10,28 +13,34 @@
     margin: 0;
 }
 body {
-    background-color: #1E2626;
+    background-color: #182223;
     overflow-x: hidden;
 }
 .oddInfo {
-    background-color: #16161a;
+    /*background-color: #16161a;*/
+    background-color: #a1b5c0;
 }
 .evenInfo {
-    background-color: #121316;
+    /*background-color: #121316;*/
+    background-color: #AABCC6;
 }
 p {
-    color: #fff;
+    /*color: #fff;*/
+    color: #182223;
     font-family: 'Open Sans', sans-serif;
 }
 a {
-    color: #dfdfdf;
+    /*color: #dfdfdf;*/
+    color: #a1b5c0;
 }
 .link:hover{
-    color: #dbb238;
+    /*color: #dbb238;*/
+    color: #785e24;
     text-decoration: none;
 }
 .link1:hover{
-    color: #dbb238;
+    /*color: #dbb238;*/
+    color: #785e24;
     text-decoration: none;
 }
 li {
@@ -42,29 +51,34 @@ li {
 }
 .content heading {
     color: #dfdfdf;
+
     font-size: 2rem;
 }
 .contentInfo {
-    color: #dfdfdf;
+    /*color: #dfdfdf;*/
+    color: #283b29;
 }
 .contentInfo hr{
     background-color: #999;
+
     margin: auto 0;
 }
 .contentInfo h5, .contentInfo h4, .contentInfo h6, h3{
-    color: #dfdfdf;
+    /*color: #dfdfdf;*/
+    color: #283b29;
     font-weight: normal;
 }
 .contentInfo p, .contentInfo li {
-    color: #999;
+    /*color: #999;*/
+    color: #283b29;
     font-size: .9rem;
 }
  .headingHr {
     width: 5rem;
     height: .25rem;
     margin: auto 0;
-    background-color: #dbb238;
-
+    /*background-color: #dbb238;*/
+    background-color: #785e24;
 }
  .fa-arrow-right,
  .fa-id-card,
@@ -74,32 +88,45 @@ li {
  .fa-phone-alt, .fa-envelope,
  .fa-linkedin-in,
  .fa-facebook-f {
-     color: #dbb238;
+     /*color: #dbb238;*/
+     color: #785e24;
  }
  .formButton {
-     background-color: #222220;
-     color: #dfdfdf;
-     border: .15rem solid #dbb238;
+     /*background-color: #222220;*/
+     background-color: #182223;
+     /*color: #dfdfdf;*/
+     color: #a1b5c0;
+     /*border: .15rem solid #dbb238;*/
+     border: .15rem solid #785e24;
      height: 3rem;
      width: 10.25rem;
  }
 .resume {
-    background-color: #222220;
-    color: #dfdfdf;
-    border: .15rem solid #dbb238;
+    /*background-color: #222220;*/
+    background-color: #182223;
+    /*color: #dfdfdf;*/
+    color: #a1b5c0;
+
+    /*border: .15rem solid #dbb238;*/
+    border: .15rem solid #785e24;
     height: 3rem;
 }
 .resume:hover , .formButton:hover {
     color: #222220;
-    background-color: #dbb238;
+
+    /*background-color: #dbb238;*/
+    background-color: #785e24;
     transition: color .35s, background-color .35s;
 }
 .inputStyle {
-    background-color: #dfdfdf;
+    /*background-color: #dfdfdf;*/
+    background-color: #90A2AC;
 }
 .fa-angle-up {
-    background-color: #dfdfdf;
-    color: #040404;
+    /*background-color: #dfdfdf;*/
+    background-color: #182223;
+    /*color: #040404;*/
+    color: #a1b5c0;
 
 }
 .toTopOfPage {
@@ -108,7 +135,9 @@ li {
     bottom: 0;
     width: 2rem;
     height: 2rem;
-    background-color: #dfdfdf;
+    /*background-color: #dfdfdf;*/
+    background-color: #182223;
+
 }
 
 /*===============================MAIN STYLING=======================*/
@@ -147,12 +176,14 @@ li {
     width: 3rem;
 }
 #myNavItems {
-    background-color: #040404;
+    /*background-color: #040404;*/
+    background-color: #182223;
     position: relative;
     display: block;
 }
 #headerSm {
-    background-color: #040404;
+    /*background-color: #040404;*/
+    background-color: #182223;
     max-width: 100%;
     position: fixed;
     top: 0;
@@ -165,7 +196,7 @@ li {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #1D3455;
+    background-color: #182223;
 }
 .headerSm .img {
     width: 65%;
@@ -182,7 +213,7 @@ li {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #1D3455;
+    background-color: #182223;
 }
 .header .img {
     width: 65%;
@@ -231,15 +262,17 @@ li {
     left: 0;
     width: 12.5rem;
     height: 100%;
-    background-color: #1E2626;
+    background-color: #182223;
 }
 .myImageBox {
     width: 10rem;
     height: 11rem;
-    border: 1px solid #dfdfdf;
+    /*border: 1px solid #dfdfdf;*/
+    border: 1px solid #785e24;
 }
 hr {
-    background-color: #333;
+    /*background-color: #333;*/
+    background-color: #785e24;
 }
 navbar li {
     list-style: none;
