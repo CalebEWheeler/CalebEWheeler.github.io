@@ -5,6 +5,18 @@
 #99564a
 #a1b5c0
 
+COLORMIND PALETTE
+DED8D6
+232E39
+47505A
+3B5270
+6E849D
+
+141E2A
+365576
+84A2C6
+E7DFDF
+464F59
 */
 
 /*===============================GENERAL PAGE STYLING==================*/
@@ -13,7 +25,8 @@
     margin: 0;
 }
 body {
-    background-color: #182223;
+    /*background-color: #182223;*/
+    background-color: #141E2A;
     overflow-x: hidden;
 }
 .oddInfo {
@@ -71,7 +84,7 @@ li {
 .contentInfo p, .contentInfo li {
     /*color: #999;*/
     color: #283b29;
-    font-size: 1.2rem;
+    font-size: .9rem;
 }
  .headingHr {
     width: 5rem;
@@ -213,7 +226,8 @@ li {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #182223;
+    /*background-color: #182223;*/
+    background-color: #141E2A;
 }
 .header .img {
     width: 65%;
@@ -262,7 +276,8 @@ li {
     left: 0;
     width: 12.5rem;
     height: 100%;
-    background-color: #182223;
+    /*background-color: #182223;*/
+    background-color: #141E2A;
 }
 .myImageBox {
     width: 10rem;
