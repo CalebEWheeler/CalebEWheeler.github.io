@@ -19,6 +19,19 @@ E7DFDF
 464F59
 */
 
+/*Test darker page color from dark mode
+374852
+3A4D57
+
+font-color
+C8C4BD
+
+yellow color
+A07D30
+light yellow
+DABF84
+*/
+
 /*===============================GENERAL PAGE STYLING==================*/
 * {
     padding: 0;
@@ -31,29 +44,30 @@ body {
 }
 .oddInfo {
     /*background-color: #16161a;*/
-    background-color: #a1b5c0;
+    background-color: #374852;
 }
 .evenInfo {
     /*background-color: #121316;*/
-    background-color: #AABCC6;
+    background-color: #3A4D57;
 }
 p {
     /*color: #fff;*/
-    color: #182223;
+    /*color: #182223;*/
+    color: #A07D30;
     font-family: 'Open Sans', sans-serif;
 }
 a {
     /*color: #dfdfdf;*/
-    color: #a1b5c0;
+    color: #C8C4BD;
 }
 .link:hover{
     /*color: #dbb238;*/
-    color: #785e24;
+    color: #A07D30;
     text-decoration: none;
 }
 .link1:hover{
     /*color: #dbb238;*/
-    color: #785e24;
+    color: #A07D30;
     text-decoration: none;
 }
 li {
@@ -63,13 +77,13 @@ li {
     margin-top: 3rem;
 }
 .content heading {
-    color: #dfdfdf;
+    color: #C8C4BD;
 
     font-size: 2rem;
 }
 .contentInfo {
     /*color: #dfdfdf;*/
-    color: #283b29;
+    color: #C8C4BD;
 }
 .contentInfo hr{
     background-color: #999;
@@ -78,12 +92,12 @@ li {
 }
 .contentInfo h5, .contentInfo h4, .contentInfo h6, h3{
     /*color: #dfdfdf;*/
-    color: #283b29;
+    color: #C8C4BD;
     font-weight: normal;
 }
 .contentInfo p, .contentInfo li {
     /*color: #999;*/
-    color: #283b29;
+    color: #C8C4BD;
     font-size: .9rem;
 }
  .headingHr {
@@ -91,7 +105,7 @@ li {
     height: .25rem;
     margin: auto 0;
     /*background-color: #dbb238;*/
-    background-color: #785e24;
+    background-color: #A07D30;
 }
  .fa-arrow-right,
  .fa-id-card,
@@ -102,44 +116,47 @@ li {
  .fa-linkedin-in,
  .fa-github {
      /*color: #dbb238;*/
-     color: #785e24;
+     color: #A07D30;
  }
  .formButton {
      /*background-color: #222220;*/
-     background-color: #182223;
+     /*background-color: #182223;*/
+     background-color: #141E2A;
      /*color: #dfdfdf;*/
-     color: #a1b5c0;
+     color: #C8C4BD;
      /*border: .15rem solid #dbb238;*/
-     border: .15rem solid #785e24;
+     border: .15rem solid #A07D30;
      height: 3rem;
      width: 10.25rem;
  }
 .resume {
     /*background-color: #222220;*/
-    background-color: #182223;
+    /*background-color: #182223;*/
+    background-color: #141E2A;
     /*color: #dfdfdf;*/
-    color: #a1b5c0;
+    color: #C8C4BD;
 
     /*border: .15rem solid #dbb238;*/
-    border: .15rem solid #785e24;
+    border: .15rem solid #A07D30;
     height: 3rem;
 }
 .resume:hover , .formButton:hover {
     color: #222220;
 
     /*background-color: #dbb238;*/
-    background-color: #785e24;
+    background-color: #A07D30;
     transition: color .35s, background-color .35s;
 }
 .inputStyle {
     /*background-color: #dfdfdf;*/
-    background-color: #90A2AC;
+    background-color: #C8C4BD;
 }
 .fa-angle-up {
     /*background-color: #dfdfdf;*/
-    background-color: #182223;
+    /*background-color: #182223;*/
+    background-color: #141E2A;
     /*color: #040404;*/
-    color: #a1b5c0;
+    color: #C8C4BD;
 
 }
 .toTopOfPage {
@@ -149,7 +166,8 @@ li {
     width: 2rem;
     height: 2rem;
     /*background-color: #dfdfdf;*/
-    background-color: #182223;
+    /*background-color: #182223;*/
+    background-color: #141E2A;
 
 }
 
@@ -190,13 +208,15 @@ li {
 }
 #myNavItems {
     /*background-color: #040404;*/
-    background-color: #182223;
+    /*background-color: #182223;*/
+    background-color: #141E2A;
     position: relative;
     display: block;
 }
 #headerSm {
     /*background-color: #040404;*/
-    background-color: #182223;
+    /*background-color: #182223;*/
+    background-color: #141E2A;
     max-width: 100%;
     position: fixed;
     top: 0;
@@ -209,7 +229,8 @@ li {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #182223;
+    /*background-color: #182223;*/
+    background-color: #141E2A;
 }
 .headerSm .img {
     width: 65%;
@@ -239,8 +260,8 @@ li {
 }
 .message {
     height: 6rem;
-    width: 115%;
-    background: rgba(255,255,255,0.5);
+    /*width: 115%;*/
+    /*background: rgba(255,255,255,0.5);*/
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 .message p {
@@ -283,11 +304,11 @@ li {
     width: 10rem;
     height: 11rem;
     /*border: 1px solid #dfdfdf;*/
-    border: 1px solid #785e24;
+    border: 1px solid #A07D30;
 }
 hr {
     /*background-color: #333;*/
-    background-color: #785e24;
+    background-color: #A07D30;
 }
 navbar li {
     list-style: none;
