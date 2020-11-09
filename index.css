@@ -51,9 +51,9 @@ body {
     background-color: #3A4D57;
 }
 p {
-    /*color: #fff;*/
+    color: #C8C4BD;
     /*color: #182223;*/
-    color: #A07D30;
+    /*color: #A07D30;*/
     font-family: 'Open Sans', sans-serif;
 }
 a {
@@ -312,7 +312,7 @@ hr {
 }
 navbar li {
     list-style: none;
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 #headerSm p, #headerLg p {
     font-size: 1.25rem;
