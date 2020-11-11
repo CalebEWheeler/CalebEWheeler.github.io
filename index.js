@@ -52,9 +52,6 @@ $(document).ready(function () {
         $(this).find('i').removeClass('fa-4x').addClass('fa-3x')
     })
 
-    $('.link1 .link').hover(function () {
-        $(this).
-    })
 
     $('.toTopOfPage').click(function () {
         $('html, body').animate({
