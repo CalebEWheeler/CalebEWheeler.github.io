@@ -28,6 +28,12 @@ body {
     background-color: #2b4a6f;
     /*background-color: #374852;*/
 }
+.oddInfo hr {
+    /*background-color: ;*/
+}
+.evenInfo hr {
+    /*background-color: ;*/
+}
 .evenInfo {
     background-color: #4b688b;
     /*background-color: #4B6371;*/
@@ -44,12 +50,12 @@ a {
 }
 .link:hover{
     /*color: #dbb238;*/
-    color: #A07D30;
+    color: #d4ab6a;
     text-decoration: none;
 }
 .link1:hover{
     /*color: #dbb238;*/
-    color: #A07D30;
+    color: #d4ab6a;
     text-decoration: none;
 }
 li {
@@ -68,7 +74,8 @@ li {
     color: #C8C4BD;
 }
 .smNavbar hr, .lgNavbar hr {
-    background-color: #ffdeaa;
+    /*background-color: #ffdeaa;*/
+    background-color: #d4ab6a;
 }
 .contentInfo hr{
     background-color: #999;
@@ -282,7 +289,7 @@ li {
 .myImageBox {
     width: 10rem;
     height: 11rem;
-    border: 1px solid #ffdeaa;
+    border: 1px solid #d4ab6a;
     /*border: 1px solid #A07D30;*/
 }
 hr {
