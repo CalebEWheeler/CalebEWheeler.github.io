@@ -29,10 +29,10 @@ body {
     /*background-color: #374852;*/
 }
 .oddInfo hr {
-    /*background-color: ;*/
+    background-color: #d4ab6a;
 }
 .evenInfo hr {
-    /*background-color: ;*/
+    background-color: #ffdeaa;
 }
 .evenInfo {
     background-color: #4b688b;
@@ -121,20 +121,20 @@ li {
      width: 10.25rem;
  }
 .resume {
-    background-color: #051c38;
+    background-color: #d4ab6a;
     /*background-color: #141E2A;*/
     /*color: #dfdfdf;*/
-    color: #C8C4BD;
+    color: #051c38;
 
     /*border: .15rem solid #dbb238;*/
-    border: .15rem solid #A07D30;
+    border: .15rem solid #051c38;
     height: 3rem;
 }
 .resume:hover , .formButton:hover {
-    color: #222220;
+    color: #ffdeaa;
 
     /*background-color: #dbb238;*/
-    background-color: #A07D30;
+    background-color: #051c38;
     transition: color .35s, background-color .35s;
 }
 .inputStyle {
