@@ -31,7 +31,9 @@ body {
 .oddInfo hr {
     background-color: #d4ab6a;
 }
-.oddInfo ul li div i {
+.oddInfo ul li div i,
+navbar ul li a .fa-linkedin-in,
+navbar ul li a .fa-github{
     color: #d4ab6a;
 }
 
@@ -106,15 +108,17 @@ li {
     /*background-color: #dbb238;*/
     background-color: #A07D30;
 }
-
+#contact ul li i,
+#contact1 ul li i {
+    color: #ffdeaa;
+}
  .fa-arrow-right,
  .fa-id-card,
  .fa-laptop-code,
- .fa-graduation-cap,
- .fa-map-marker-alt,
- .fa-phone-alt, .fa-envelope,
- .fa-linkedin-in,
- .fa-github {
+ .fa-graduation-cap
+ /*.fa-map-marker-alt,*/
+ /*.fa-phone-alt, .fa-envelope*/
+  {
      /*color: #dbb238;*/
      color: #A07D30;
  }
