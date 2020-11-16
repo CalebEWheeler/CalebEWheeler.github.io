@@ -31,12 +31,19 @@ body {
 .oddInfo hr {
     background-color: #d4ab6a;
 }
-.evenInfo hr {
-    background-color: #ffdeaa;
+.oddInfo ul li div i {
+    color: #d4ab6a;
 }
+
 .evenInfo {
     background-color: #4b688b;
     /*background-color: #4B6371;*/
+}
+.evenInfo hr {
+    background-color: #ffdeaa;
+}
+.evenInfo ul li div i {
+    color: #ffdeaa;
 }
 p {
     color: #C8C4BD;
@@ -99,6 +106,7 @@ li {
     /*background-color: #dbb238;*/
     background-color: #A07D30;
 }
+
  .fa-arrow-right,
  .fa-id-card,
  .fa-laptop-code,
