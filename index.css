@@ -37,6 +37,11 @@ navbar ul li a .fa-github{
     color: #d4ab6a;
 }
 
+navbar ul li a .fa-linkedin-in:hover,
+navbar ul li a .fa-github:hover {
+    color: #748BA7;
+}
+
 .evenInfo {
     background-color: #4b688b;
     /*background-color: #4B6371;*/
@@ -112,16 +117,14 @@ li {
 #contact1 ul li i {
     color: #ffdeaa;
 }
- .fa-arrow-right,
- .fa-id-card,
- .fa-laptop-code,
- .fa-graduation-cap
- /*.fa-map-marker-alt,*/
- /*.fa-phone-alt, .fa-envelope*/
-  {
-     /*color: #dbb238;*/
-     color: #A07D30;
- }
+ /*.fa-arrow-right,*/
+ /*.fa-id-card,*/
+ /*.fa-laptop-code,*/
+ /*.fa-graduation-cap*/
+ /* {*/
+ /*    !*color: #dbb238;*!*/
+ /*    color: #A07D30;*/
+ /*}*/
  .formButton {
      background-color: #d4ab6a;
      /*background-color: #141E2A;*/
