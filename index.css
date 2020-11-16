@@ -123,12 +123,12 @@ li {
      color: #A07D30;
  }
  .formButton {
-     background-color: #051c38;
+     background-color: #d4ab6a;
      /*background-color: #141E2A;*/
      /*color: #dfdfdf;*/
-     color: #C8C4BD;
+     color: #051c38;
      /*border: .15rem solid #dbb238;*/
-     border: .15rem solid #A07D30;
+     border: .15rem solid #051c38;
      height: 3rem;
      width: 10.25rem;
  }
